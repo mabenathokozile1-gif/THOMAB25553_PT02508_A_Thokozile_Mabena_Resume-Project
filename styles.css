@@ -41,8 +41,8 @@ body {
     rgba(255, 255, 255, 0.9),
     rgba(255, 255, 255, 0.85)
   );
-  border-radius: 20px;
-  border: 6px solid #ff5db4;
+  border-radius: 25px;
+  border: 6px solid #cb428b;
   align-items: center;
   box-shadow: var(--shadow);
   position: relative;
@@ -50,8 +50,8 @@ body {
 }
 .avatar-wrap {
   width: 100px;
-  height: 100px;
-  border-radius: 12px;
+  height: 120px;
+  border-radius: 5px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -336,4 +336,8 @@ body {
   .summary {
     font-size: 13px;
   }
+}
+
+.github-secret:hover span {
+  display: inline;
 }
